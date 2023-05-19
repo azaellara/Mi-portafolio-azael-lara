@@ -3,7 +3,7 @@ import { Button, Stack, Typography, styled } from "@mui/material";
 import fondo from "../../assets/images/fondo.webp";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import perfil from "../../assets/images/perfil.png";
+import perfil from "../../assets/images/perfil.webp";
 
 const Contenedor = styled("section")({
   width: "100%",

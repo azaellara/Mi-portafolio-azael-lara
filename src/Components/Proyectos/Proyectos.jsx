@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import encriptador from "../../assets/images/encriptador.webp";
-import miorg from "../../assets/images/miorg.png";
+import miorg from "../../assets/images/miorg.webp";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import background1 from "../../assets/images/background1.svg";
 
