@@ -4,6 +4,7 @@ import Skills from "./Components/Skills/Skills";
 import Proyectos from "./Components/Proyectos/Proyectos";
 import Formulario from "./Components/Formulario/Formulario";
 import Footer from "./Components/Footer/Footer";
+import Boton from "./Components/Boton/Boton";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Proyectos />
       <Formulario />
       <Footer />
+      <Boton />
     </>
   );
 }
