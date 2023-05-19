@@ -52,7 +52,7 @@ const Formulario = () => {
     validationSchema: Yup.object({
       name: Yup.string().required("Debes ingresar un nombre"),
       email: Yup.string()
-        .email("Dirección de email no válida, tene que llevar una @")
+        .email("Dirección de email no válida")
         .required("Debes ingresar un email"),
       message: Yup.string().required("Debes ingresar un mensaje"),
     }),
