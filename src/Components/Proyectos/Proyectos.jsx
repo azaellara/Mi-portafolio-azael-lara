@@ -4,9 +4,14 @@ import React from "react";
 import encriptador from "../../assets/images/encriptador.webp";
 import miorg from "../../assets/images/miorg.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import background1 from "../../assets/images/background1.svg";
 
 const Seccion = styled("section")({
   margin: "1rem 0",
+  backgroundImage: `url(${background1})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
 });
 
 const Raya = styled("p")({
@@ -43,7 +48,7 @@ const Proyectos = () => {
         <Img src={encriptador} />
         <Box
           sx={{
-            margin: "0 2rem",
+            margin: "0 1rem",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -51,7 +56,7 @@ const Proyectos = () => {
         >
           <Typography
             variant="h3"
-            fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+            fontSize={{ xs: "2rem", sm: "2rem", md: "3rem" }}
             textAlign="start"
             margin=".7rem 0"
           >
@@ -59,7 +64,7 @@ const Proyectos = () => {
           </Typography>
           <Typography
             variant="h3"
-            fontSize={{ xs: ".5rem", sm: ".5rem", md: "1rem" }}
+            fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
             textAlign="start"
           >
             App para encripta y desencripta texto
@@ -93,7 +98,7 @@ const Proyectos = () => {
       >
         <Box
           sx={{
-            margin: "0 2rem",
+            margin: "0 1rem",
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
@@ -101,7 +106,7 @@ const Proyectos = () => {
         >
           <Typography
             variant="h3"
-            fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+            fontSize={{ xs: "2rem", sm: "2rem", md: "3rem" }}
             textAlign="start"
             margin=".7rem 0"
           >
@@ -109,7 +114,7 @@ const Proyectos = () => {
           </Typography>
           <Typography
             variant="h3"
-            fontSize={{ xs: ".5rem", sm: ".5rem", md: "1rem" }}
+            fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
           >
             App para crear y organizar equipos
           </Typography>

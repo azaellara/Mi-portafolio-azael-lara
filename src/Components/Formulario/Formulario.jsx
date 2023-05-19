@@ -4,11 +4,15 @@ import React from "react";
 import SendIcon from "@mui/icons-material/Send";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import background2 from "../../assets/images/background2.svg";
 
 const Seccion = styled("section")({
   padding: "2rem 0",
   boxSizing: "border-box",
-  background: "#336b87",
+  backgroundImage: `url(${background2})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
 });
 
 const Raya = styled("p")({
