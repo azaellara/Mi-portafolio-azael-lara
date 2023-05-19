@@ -8,7 +8,9 @@ const Caja = styled("div")({
   left: "20px",
 });
 
-const Img = styled("img")({});
+const Img = styled("img")({
+  width: "80%",
+});
 
 const Boton = () => {
   return (
