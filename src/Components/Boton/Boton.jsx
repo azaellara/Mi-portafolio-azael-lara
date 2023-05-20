@@ -5,12 +5,11 @@ import whatsapp from "../../assets/images/whatsapp.svg";
 const Caja = styled("div")({
   position: "fixed",
   bottom: "5px",
-  right: "5px",
+  right: "-15px",
 });
 
 const Img = styled("img")({
   width: "80%",
-  right: "-15px",
 });
 
 const Boton = () => {
