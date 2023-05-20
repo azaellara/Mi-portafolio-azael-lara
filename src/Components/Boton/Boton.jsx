@@ -4,8 +4,8 @@ import whatsapp from "../../assets/images/whatsapp.svg";
 
 const Caja = styled("div")({
   position: "fixed",
-  bottom: "10px",
-  right: "10px",
+  bottom: "5px",
+  right: "5px",
 });
 
 const Img = styled("img")({
