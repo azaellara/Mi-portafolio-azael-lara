@@ -27,16 +27,17 @@ const theme = createTheme({
   typography: {
     h1: {
       fontSize: "3rem",
-      fontFamily: "Montserrat",
-      letterSpacing: "3px",
+      fontFamily:
+        '"PlusJakartaSans-ExtraBold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";',
     },
     h2: {
-      fontFamily: "Montserrat",
-      letterSpacing: "3px",
+      lineHeight: 0.5,
+      fontFamily:
+        '"PlusJakartaSans-ExtraBold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";',
     },
     h3: {
-      fontFamily: "Montserrat",
-      letterSpacing: "3px",
+      fontFamily:
+        '"PlusJakartaSans-ExtraBold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";',
     },
   },
 });
