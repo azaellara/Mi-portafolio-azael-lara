@@ -28,6 +28,17 @@ const theme = createTheme({
     h1: {
       fontSize: "3rem",
       fontFamily: "Montserrat",
+      letterSpacing: "2px",
+    },
+    h2: {
+      fontSize: "3rem",
+      fontFamily: "Montserrat",
+      letterSpacing: "2px",
+    },
+    h3: {
+      fontSize: "3rem",
+      fontFamily: "Montserrat",
+      letterSpacing: "2px",
     },
   },
 });

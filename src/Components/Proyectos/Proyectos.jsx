@@ -52,6 +52,7 @@ const Proyectos = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            alignItems: "center",
           }}
         >
           <Typography
@@ -60,7 +61,7 @@ const Proyectos = () => {
             textAlign="start"
             margin=".7rem 0"
           >
-            Encriptador
+            ENCRIPTADOR
           </Typography>
           <Typography
             variant="h3"
@@ -83,7 +84,7 @@ const Proyectos = () => {
               target="_black"
               startIcon={<GitHubIcon />}
             >
-              code
+              Code
             </Button>
           </Stack>
         </Box>
@@ -102,6 +103,7 @@ const Proyectos = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            alignItems: "center",
           }}
         >
           <Typography
@@ -110,7 +112,7 @@ const Proyectos = () => {
             textAlign="start"
             margin=".7rem 0"
           >
-            Mi Org
+            MI ORG
           </Typography>
           <Typography
             variant="h3"
