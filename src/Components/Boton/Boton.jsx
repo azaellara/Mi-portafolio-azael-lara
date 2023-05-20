@@ -10,8 +10,7 @@ const Caja = styled("div")({
 
 const Img = styled("img")({
   width: "80%",
-  display: "flex",
-  justifyContent: "center",
+  right: "-15px",
 });
 
 const Boton = () => {
