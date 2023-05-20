@@ -65,7 +65,7 @@ const Header = () => {
         <Caja>
           <Typography
             variant="h1"
-            fontSize={{ xs: "3rem", sm: "5rem", md: "7rem" }}
+            fontSize={{ xs: "3rem", sm: "4rem", md: "6rem" }}
           >
             Azael Lara
           </Typography>
