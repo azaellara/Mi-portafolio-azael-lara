@@ -14,6 +14,12 @@ const Seccion = styled("section")({
 
 const Img = styled("img")({
   margin: "0 1rem",
+  width: "100%",
+  maxWidth: "150px",
+
+  "@media (max-width: 768px)": {
+    maxWidth: "150px",
+  },
 });
 
 const Skills = () => {

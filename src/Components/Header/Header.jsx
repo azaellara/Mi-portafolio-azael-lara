@@ -62,13 +62,13 @@ const Header = () => {
         <div>
           <Typography
             variant="h1"
-            fontSize={{ xs: "3rem", sm: "4rem", md: "6rem" }}
+            fontSize={{ xs: "3em", sm: "4em", md: "6em" }}
           >
             Azael Lara
           </Typography>
           <Typography
             variant="h2"
-            fontSize={{ xs: "2rem", sm: "2rem", md: "4rem" }}
+            fontSize={{ xs: "2em", sm: "2em", md: "4em" }}
           >
             Frontend Jr. developer
           </Typography>

@@ -85,7 +85,7 @@ const Formulario = () => {
       >
         <Typography
           variant="h2"
-          fontSize={{ xs: "1.5rem", sm: "1.5rem", md: "3rem" }}
+          fontSize={{ xs: "1.5em", sm: "1.5em", md: "3em" }}
           display="flex"
           justifyContent="center"
           alignItems="center"
@@ -136,7 +136,7 @@ const Formulario = () => {
           </FormInput>
           <FormBoton>
             <Button
-              sx={{ mt: "2rem", padding: "1rem 5rem" }}
+              sx={{ mt: "2em", padding: "1em 5em" }}
               type="submit"
               variant="contained"
               endIcon={<SendIcon />}

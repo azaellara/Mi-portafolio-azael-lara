@@ -21,8 +21,17 @@ const Raya = styled("p")({
 });
 
 const Img = styled("img")({
-  width: "60%",
   margin: "0 1rem",
+  width: "100%",
+  maxWidth: "800px",
+
+  "@media (max-width: 768px)": {
+    maxWidth: "500px",
+  },
+
+  "@media (max-width: 480px)": {
+    maxWidth: "300px",
+  },
 });
 
 const Proyectos = () => {
@@ -30,7 +39,7 @@ const Proyectos = () => {
     <Seccion maxWidth="xl" sx={{ margin: "1rem 0" }}>
       <Typography
         variant="h2"
-        fontSize={{ xs: "2rem", sm: "2rem", md: "4rem" }}
+        fontSize={{ xs: "2em", sm: "2em", md: "4em" }}
         display="flex"
         justifyContent="center"
         alignItems="center"
@@ -57,7 +66,7 @@ const Proyectos = () => {
         >
           <Typography
             variant="h3"
-            fontSize={{ xs: "2rem", sm: "2rem", md: "3rem" }}
+            fontSize={{ xs: "2em", sm: "2em", md: "3em" }}
             textAlign="start"
             margin=".7rem 0"
           >
@@ -65,7 +74,7 @@ const Proyectos = () => {
           </Typography>
           <Typography
             variant="h3"
-            fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+            fontSize={{ xs: "1em", sm: "1em", md: "2em" }}
             textAlign="start"
           >
             App para encripta y desencripta texto
