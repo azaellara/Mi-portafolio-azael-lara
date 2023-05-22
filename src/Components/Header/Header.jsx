@@ -22,9 +22,6 @@ const CV = styled("div")({
   top: "20px",
   right: "20px",
 });
-const Imagen = styled("div")({});
-
-const Caja = styled("div")({});
 
 const Redes = styled("div")({
   display: "flex",
@@ -59,10 +56,10 @@ const Header = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Imagen>
+        <div>
           <img src={perfil} />
-        </Imagen>
-        <Caja>
+        </div>
+        <div>
           <Typography
             variant="h1"
             fontSize={{ xs: "3rem", sm: "4rem", md: "6rem" }}
@@ -84,7 +81,6 @@ const Header = () => {
             >
               contact me
             </Button>
-
             <Enlace href="https://github.com/azaellara" target="_blank">
               <GitHubIcon fontSize="large" />
             </Enlace>
@@ -95,7 +91,7 @@ const Header = () => {
               <LinkedInIcon fontSize="large" />
             </Enlace>
           </Redes>
-        </Caja>
+        </div>
       </Stack>
     </Contenedor>
   );

@@ -23,10 +23,10 @@ const Footer = () => {
 
   return (
     <Contenedor>
-      <Typography level="h4" component="h1">
+      <Typography variant="h5">
         © Copyright Desarrollado por Azael Lara
       </Typography>
-      <Typography level="h4" component="h1">
+      <Typography variant="h5">
         <p>{añoActual}</p>
       </Typography>
     </Contenedor>
