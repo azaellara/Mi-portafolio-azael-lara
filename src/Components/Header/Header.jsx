@@ -43,7 +43,12 @@ const Header = () => {
   return (
     <Contenedor>
       <CV>
-        <Button variant="contained" href="#" download size="small">
+        <Button
+          variant="contained"
+          href="/Azael-Lara-CV.pdf"
+          download
+          size="small"
+        >
           Download Cv
         </Button>
       </CV>
