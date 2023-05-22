@@ -5,7 +5,7 @@ import javascript from "../../assets/images/javascript.svg";
 import github from "../../assets/images/github.svg";
 import git from "../../assets/images/git.svg";
 import react from "../../assets/images/react.svg";
-import { Box, Container } from "@mui/material";
+import { Box } from "@mui/material";
 import styled from "@emotion/styled";
 
 const Seccion = styled("section")({
