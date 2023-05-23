@@ -5,6 +5,7 @@ import encriptador from "../../assets/images/encriptador.webp";
 import miorg from "../../assets/images/miorg.webp";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import background1 from "../../assets/images/background1.svg";
+import taskcreator from "../../assets/images/taskcreator.webp";
 
 const Seccion = styled("section")({
   margin: "1rem 0",
@@ -148,6 +149,58 @@ const Proyectos = () => {
           </Stack>
         </Box>
         <Img src={miorg} />
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          padding: "2rem 0",
+        }}
+      >
+        <Img src={taskcreator} />
+        <Box
+          sx={{
+            margin: "0 1rem",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            variant="h3"
+            fontSize={{ xs: "2em", sm: "2em", md: "3em" }}
+            textAlign="start"
+            margin=".7rem 0"
+          >
+            Task Creator
+          </Typography>
+          <Typography
+            variant="h3"
+            fontSize={{ xs: "1em", sm: "1em", md: "2em" }}
+            textAlign="start"
+          >
+            App para crear tareas y marcarlas como concluidas o no
+          </Typography>
+          <Stack spacing={2} direction="row" margin="2rem 0">
+            <Button
+              variant="contained"
+              href="https://task-creator-gray.vercel.app/"
+              target="_blank"
+            >
+              Demo
+            </Button>
+            <Button
+              variant="outlined"
+              href="https://github.com/azaellara/task-creator"
+              target="_black"
+              startIcon={<GitHubIcon />}
+            >
+              Code
+            </Button>
+          </Stack>
+        </Box>
       </Box>
     </Seccion>
   );
