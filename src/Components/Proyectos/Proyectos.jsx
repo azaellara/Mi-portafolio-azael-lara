@@ -6,6 +6,7 @@ import miorg from "../../assets/images/miorg.webp";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import background1 from "../../assets/images/background1.svg";
 import taskcreator from "../../assets/images/taskcreator.webp";
+import calendar from "../../assets/images/calendar.webp";
 
 const Seccion = styled("section")({
   margin: "1rem 0",
@@ -201,6 +202,57 @@ const Proyectos = () => {
             </Button>
           </Stack>
         </Box>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          padding: "2rem 0",
+        }}
+      >
+        <Box
+          sx={{
+            margin: "0 1rem",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            variant="h3"
+            fontSize={{ xs: "2rem", sm: "2rem", md: "3rem" }}
+            textAlign="start"
+            margin=".7rem 0"
+          >
+            CALENDARIO
+          </Typography>
+          <Typography
+            variant="h3"
+            fontSize={{ xs: "1rem", sm: "1rem", md: "2rem" }}
+          >
+            App calendario
+          </Typography>
+          <Stack spacing={2} direction="row" margin="2rem 0">
+            <Button
+              variant="contained"
+              href="https://calendar-kappa-hazel.vercel.app/"
+              target="_blank"
+            >
+              Demo
+            </Button>
+            <Button
+              variant="outlined"
+              href="https://github.com/azaellara/calendar"
+              target="_black"
+              startIcon={<GitHubIcon />}
+            >
+              Code
+            </Button>
+          </Stack>
+        </Box>
+        <Img src={calendar} />
       </Box>
     </Seccion>
   );
